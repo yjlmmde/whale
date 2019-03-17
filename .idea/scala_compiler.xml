@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="dmpitem">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\develop\workspace\whale\dmpitem\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="adx_data_miner">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\develop\workspace\whale\adx_data_miner\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 3" modules="adxdataminer">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\develop\workspace\whale\adxdataminer\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+  </component>
+</project>

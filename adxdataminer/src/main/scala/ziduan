@@ -1,0 +1,173 @@
+new StructField("sessionid", StringType),
+      new StructField("advertisersid", IntegerType),
+      new StructField("adorderid", IntegerType),
+      new StructField("adcreativeid", IntegerType),
+      new StructField("adplatformproviderid", IntegerType),
+      new StructField("sdkversion", StringType),
+      new StructField("adplatformkey", StringType),
+      new StructField("putinmodeltype", IntegerType),
+      new StructField("requestmode", IntegerType),
+      new StructField("adprice", DoubleType),
+      new StructField("adppprice", DoubleType),
+      new StructField("requestdate", StringType),
+      new StructField("ip", StringType),
+      new StructField("appid", StringType),
+      new StructField("appname", StringType),
+      new StructField("uuid", StringType),
+      new StructField("device", StringType),
+      new StructField("client", IntegerType),
+      new StructField("osversion", StringType),
+      new StructField("density", StringType),
+      new StructField("pw", IntegerType),
+      new StructField("ph", IntegerType),
+      new StructField("long", StringType),
+      new StructField("lat", StringType),
+      new StructField("provincename", StringType),
+      new StructField("cityname", StringType),
+      new StructField("ispid", IntegerType),
+      new StructField("ispname", StringType),
+      new StructField("networkmannerid", IntegerType),
+      new StructField("networkmannername", StringType),
+      new StructField("iseffective", IntegerType),
+      new StructField("isbilling", IntegerType),
+      new StructField("adspacetype", IntegerType),
+      new StructField("adspacetypename", StringType),
+      new StructField("devicetype", IntegerType),
+      new StructField("processnode", IntegerType),
+      new StructField("apptype", IntegerType),
+      new StructField("district", StringType),
+      new StructField("paymode", IntegerType),
+      new StructField("isbid", IntegerType),
+      new StructField("bidprice", DoubleType),
+      new StructField("winprice", DoubleType),
+      new StructField("iswin", IntegerType),
+      new StructField("cur", StringType),
+      new StructField("rate", DoubleType),
+      new StructField("cnywinprice", DoubleType),
+      new StructField("imei", StringType),
+      new StructField("mac", StringType),
+      new StructField("idfa", StringType),
+      new StructField("openudid", StringType),
+      new StructField("androidid", StringType),
+      new StructField("rtbprovince", StringType),
+      new StructField("rtbcity", StringType),
+      new StructField("rtbdistrict", StringType),
+      new StructField("rtbstreet", StringType),
+      new StructField("storeurl", StringType),
+      new StructField("realip", StringType),
+      new StructField("isqualityapp", IntegerType),
+      new StructField("bidfloor", DoubleType),
+      new StructField("aw", IntegerType),
+      new StructField("ah", IntegerType),
+      new StructField("imeimd5", StringType),
+      new StructField("macmd5", StringType),
+      new StructField("idfamd5", StringType),
+      new StructField("openudidmd5", StringType),
+      new StructField("androididmd5", StringType),
+      new StructField("imeisha1", StringType),
+      new StructField("macsha1", StringType),
+      new StructField("idfasha1", StringType),
+      new StructField("openudidsha1", StringType),
+      new StructField("androididsha1", StringType),
+      new StructField("uuidunknow", StringType),
+      new StructField("userid", StringType),
+      new StructField("iptype", IntegerType),
+      new StructField("initbidprice", DoubleType),
+      new StructField("adpayment", DoubleType),
+      new StructField("agentrate", DoubleType),
+      new StructField("lrate", DoubleType),
+      new StructField("adxrate", DoubleType),
+      new StructField("title", StringType),
+      new StructField("keywords", StringType),
+      new StructField("tagid", StringType),
+      new StructField("callbackdate", StringType),
+      new StructField("channelid", StringType),
+      new StructField("mediatype", IntegerType))
+
+
+
+sessionid:String
+advertisersid:Int
+adorderid:Int
+adcreativeid:Int
+adplatformproviderid:Int
+sdkversion:String
+adplatformkey:String
+putinmodeltype:Int
+requestmode:Int
+adprice:Double
+adppprice:Double
+requestdate:String
+ip:String
+appid:String
+appname:String
+uuid:String
+device:String
+client:Int
+osversion:String
+density:String
+pw:Int
+ph:Int
+long:String
+lat:String
+provincename:String
+cityname:String
+ispid:Int
+ispname:String
+networkmannerid:Int
+networkmannername:String
+iseffective:Int
+isbilling:Int
+adspacetype:Int
+adspacetypename:String
+devicetype:Int
+processnode:Int
+apptype:Int
+district:String
+paymode:Int
+isbid:Int
+bidprice:Double
+winprice:Double
+iswin:Int
+cur:String
+rate:Double
+cnywinprice:Double
+imei:String
+mac:String
+idfa:String
+openudid:String
+androidid:String
+rtbprovince:String
+rtbcity:String
+rtbdistrict:String
+rtbstreet:String
+storeurl:String
+realip:String
+isqualityapp:Int
+bidfloor:Double
+aw:Int
+ah:Int
+imeimd5:String
+macmd5:String
+idfamd5:String
+openudidmd5:String
+androididmd5:String
+imeisha1:String
+macsha1:String
+idfasha1:String
+openudidsha1:String
+androididsha1:String
+uuidunknow:String
+userid:String
+iptype:Int
+initbidprice:Double
+adpayment:Double
+agentrate:Double
+lrate:Double
+adxrate:Double
+title:String
+keywords:String
+tagid:String
+callbackdate:String
+channelid:String
+mediatype:Int
